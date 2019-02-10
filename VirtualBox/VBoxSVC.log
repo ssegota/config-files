@@ -1,0 +1,46 @@
+VirtualBox XPCOM Server 5.2.18 r124319 linux.amd64 (Aug 14 2018 12:02:04) release log
+00:00:00.062047 main     Log opened 2019-02-10T17:33:27.127613000Z
+00:00:00.062050 main     Build Type: release
+00:00:00.062055 main     OS Product: Linux
+00:00:00.062056 main     OS Release: 4.15.0-45-generic
+00:00:00.062058 main     OS Version: #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+00:00:00.062098 main     DMI Product Name: G551VW
+00:00:00.062107 main     DMI Product Version: 1.0       
+00:00:00.062179 main     Host RAM: 7875MB (7.6GB) total, 6900MB (6.7GB) available
+00:00:00.062183 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.062184 main     Process ID: 2221
+00:00:00.062185 main     Package type: LINUX_64BITS__UBUNTU_18_04
+00:00:00.064126 main     IPC socket path: /tmp/.vbox-sandi-ipc/ipcd
+00:00:00.229215 nspr-2   VirtualBox: object creation starts
+00:00:00.230401 nspr-2   Home directory: '/home/sandi/.config/VirtualBox'
+00:00:00.246146 nspr-2   Loading settings file "/home/sandi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.269378 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.290183 nspr-2   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.290220 nspr-2   HostDnsMonitor: old information
+00:00:00.290225 nspr-2     no server entries
+00:00:00.290229 nspr-2     no domain set
+00:00:00.290232 nspr-2     no search string entries
+00:00:00.290235 nspr-2   HostDnsMonitor: new information
+00:00:00.290238 nspr-2     server 1: 127.0.0.53
+00:00:00.290242 nspr-2     domain: gigaset.lan
+00:00:00.290245 nspr-2     search string 1: gigaset.lan
+00:00:00.290251 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.378602 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.473481 nspr-2   Loading settings file "/home/sandi/VirtualBox VMs/Windows Virt/Windows Virt.vbox" with version "1.15-linux"
+00:00:00.514203 nspr-2   Loading settings file "/home/sandi/VirtualBox VMs/Mate-amd64/Mate-amd64.vbox" with version "1.16-linux"
+00:00:00.561245 nspr-2   Loading settings file "/home/sandi/VirtualBox VMs/AppArmor/AppArmor.vbox" with version "1.16-linux"
+00:00:00.613971 nspr-2   Loading settings file "/home/sandi/VirtualBox VMs/Skriptni-Jezici/Skriptni-Jezici.vbox" with version "1.16-linux"
+00:00:00.674222 nspr-2   VirtualBox: object created
+00:00:05.872209 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.873324 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.914394 nspr-3   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
+00:00:06.031046 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.146106 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.146583 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.328688 nspr-6   Saving settings file "/home/sandi/VirtualBox VMs/Skriptni-Jezici/Skriptni-Jezici.vbox" with version "1.16-linux"
+00:00:06.491164 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:28.055723 nspr-2   Saving settings file "/home/sandi/VirtualBox VMs/Skriptni-Jezici/Skriptni-Jezici.vbox" with version "1.16-linux"
+00:00:28.311963 nspr-4   Saving settings file "/home/sandi/VirtualBox VMs/Skriptni-Jezici/Skriptni-Jezici.vbox" with version "1.16-linux"
+00:19:01.357509 nspr-5   Saving settings file "/home/sandi/VirtualBox VMs/Skriptni-Jezici/Skriptni-Jezici.vbox" with version "1.16-linux"
+00:19:01.583449 nspr-2   Saving settings file "/home/sandi/VirtualBox VMs/Skriptni-Jezici/Skriptni-Jezici.vbox" with version "1.16-linux"
+00:19:56.502222 createResize ERROR [COM]: aRC=VBOX_E_NOT_SUPPORTED (0x80bb0009) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Resizing to new size 31457280000 is not yet supported for medium '/home/sandi/VirtualBox VMs/Skriptni-Jezici/Skriptni-Jezici.vdi'}, preserve=false aResultDetail=0

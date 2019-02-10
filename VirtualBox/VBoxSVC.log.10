@@ -1,0 +1,49 @@
+VirtualBox XPCOM Server 5.2.18 r124319 linux.amd64 (Aug 14 2018 12:02:04) release log
+00:00:00.038690 main     Log opened 2018-11-03T15:20:02.822355000Z
+00:00:00.038693 main     Build Type: release
+00:00:00.038696 main     OS Product: Linux
+00:00:00.038697 main     OS Release: 4.15.0-38-generic
+00:00:00.038699 main     OS Version: #41-Ubuntu SMP Wed Oct 10 10:59:38 UTC 2018
+00:00:00.038726 main     DMI Product Name: G551VW
+00:00:00.038735 main     DMI Product Version: 1.0       
+00:00:00.038795 main     Host RAM: 7875MB (7.6GB) total, 5661MB (5.5GB) available
+00:00:00.038799 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.038799 main     Process ID: 5772
+00:00:00.038800 main     Package type: LINUX_64BITS__UBUNTU_18_04
+00:00:00.040627 main     IPC socket path: /tmp/.vbox-sandi-ipc/ipcd
+00:00:00.196080 nspr-2   VirtualBox: object creation starts
+00:00:00.212225 nspr-2   Home directory: '/home/sandi/.config/VirtualBox'
+00:00:00.230125 nspr-2   Loading settings file "/home/sandi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.280562 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.285045 nspr-2   NAT: resolv.conf: nameserver 192.168.5.1
+00:00:00.285074 nspr-2   HostDnsMonitor: old information
+00:00:00.285079 nspr-2     no server entries
+00:00:00.285082 nspr-2     no domain set
+00:00:00.285085 nspr-2     no search string entries
+00:00:00.285089 nspr-2   HostDnsMonitor: new information
+00:00:00.285092 nspr-2     server 1: 192.168.5.1
+00:00:00.285096 nspr-2     domain: gigaset.lan
+00:00:00.285099 nspr-2     search string 1: gigaset.lan
+00:00:00.285104 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.356034 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.400761 nspr-2   Loading settings file "/home/sandi/VirtualBox VMs/Windows Virt/Windows Virt.vbox" with version "1.15-linux"
+00:00:00.451495 nspr-2   VirtualBox: object created
+00:00:05.633897 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.634560 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.659368 nspr-5   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
+00:00:05.774794 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.911321 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.912226 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.156945 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.991634 nspr-5   Saving settings file "/home/sandi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:08.223763 nspr-2   Saving settings file "/home/sandi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:18.695403 nspr-4   Saving settings file "/home/sandi/VirtualBox VMs/Windows Virt/Windows Virt.vbox" with version "1.15-linux"
+00:21:31.156160 nspr-8   Saving settings file "/home/sandi/VirtualBox VMs/Windows Virt/Windows Virt.vbox" with version "1.15-linux"
+00:21:35.824012 SaveState Saving settings file "/home/sandi/VirtualBox VMs/Windows Virt/Windows Virt.vbox" with version "1.15-linux"
+00:21:44.537598 nspr-7   Saving settings file "/home/sandi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:44.627876 nspr-4   Saving settings file "/home/sandi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:50.199736 main     VirtualBox: object deletion starts
+00:21:50.199787 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/sandi/VirtualBox VMs/Windows Virt/Windows Virt.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:21:50.665807 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:21:55.200348 main     {00007f5fc0017f10} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:21:55.200777 main     VirtualBox: object deleted
